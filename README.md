@@ -118,4 +118,4 @@ ________________________________________________________________________________
 
 ## 👨‍💻 Autor
 
-### Projeto desenvolvido por ## Marcoa Roa #### com foco em monitoramento ambiental, aquicultura e automação embarcada com ESP32.
+### Projeto desenvolvido por Marcoa Roa com foco em monitoramento ambiental, aquicultura e automação embarcada com ESP32.
