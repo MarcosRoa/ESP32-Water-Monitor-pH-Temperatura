@@ -39,22 +39,24 @@ ________________________________________________________________________________
   * #### OneWire
   * #### DallasTemperature
   * #### ArduinoJson
-  * __________________________________________________________________________________
+ __________________________________________________________________________________
 ## 📁 Estrutura do Cartão SD
 ### /SDCARD
-#### ├── index.html
-#### ├── style.css
-#### ├── script.js
-#### ├── chart.min.js
-#### ├── historico.csv
-#### └── config.json
+#### ├── 📁index.html
+#### ├── 📁style.css
+#### ├── 📁script.js
+#### ├── 📁chart.min.js
+#### ├── 📁historico.csv
+#### └── 📁config.json
+#### Obs.: Opcional: criar historico.csv e config.json vazio. Caso não exista, o sistema cria automaticamente.
 _____________________________________________________________________________________
 ## 🌐 Endpoints Disponíveis
-### Rota	Função
-#### /	Dashboard Web
-#### /data	Dados em tempo real (JSON)
-#### /download	Download do histórico CSV
-#### /config	Leitura e gravação da calibração
+### Rota &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Função
+#### / &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Dashboard Web
+#### /data &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Dados em tempo real (JSON)
+#### /download &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Download do histórico CSV
+#### /config &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Leitura e gravação da calibração
+
 ___________________________________________________________________________________
 ## 📊 Dashboard Web
 
@@ -65,6 +67,7 @@ ________________________________________________________________________________
 * #### Compatível com celular e desktop
 ### Acesso pelo navegador:
 #### http://IP_DO_ESP32
+__________________________________________________________________________________
 ## 💾 Histórico de Dados
 
 ### Os dados são gravados automaticamente no arquivo:
@@ -74,6 +77,7 @@ ________________________________________________________________________________
 ### Formato:
 
 #### DATA_HORA ; TEMPERATURA ; PH
+___________________________________________________________________________________
 ## 🧪 Calibração de pH
 
 * #### Ajustável remotamente via navegador
@@ -83,7 +87,7 @@ ________________________________________________________________________________
   * #### Offset
 * #### Persistência no arquivo config.json
 *  ### Recomendado usar soluções tampão pH 4 e pH 7.
-
+____________________________________________________________________________________
 ## 🚀 Como Executar
 
 1. #### Instale as bibliotecas necessárias
@@ -91,7 +95,7 @@ ________________________________________________________________________________
 3. #### Copie os arquivos web para o cartão SD
 4. #### Ligue o ESP32
 5. #### Acesse o IP exibido no Serial Monitor
-
+__________________________________________________________________________________
 ## 📈 Consumo de Recursos
 
 * #### RAM utilizada: < 25%
@@ -99,7 +103,7 @@ ________________________________________________________________________________
 * #### Flash utilizada: < 30%
 
 * #### Totalmente estável para operação contínua
-
+_______________________________________________________________________________
 ## 🔒 Expansões Futuras
 
 * #### Autenticação (login/senha)
@@ -111,11 +115,11 @@ ________________________________________________________________________________
 * #### OTA (atualização via navegador)
 
 * #### Alarmes por pH ou temperatura
-
+______________________________________________________________________
 ## 📄 Licença
 
 ### Projeto open‑source para fins educacionais e profissionais.
-
+_____________________________________________________________________
 ## 👨‍💻 Autor
 
 ### Projeto desenvolvido por Marcoa Roa com foco em monitoramento ambiental, aquicultura e automação embarcada com ESP32.
