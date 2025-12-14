@@ -110,7 +110,7 @@ _______________________________________________________________________________
 
 * #### MQTT / Home Assistant
 
-* #### Envio para nuvem
+* #### Envio para nuvem (remoto)
 
 * #### OTA (atualização via navegador)
 
