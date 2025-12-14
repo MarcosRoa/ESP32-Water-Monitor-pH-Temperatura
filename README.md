@@ -113,8 +113,8 @@ _______________________________________________________________________________
 * #### Envio para nuvem (remoto)
 
 * #### OTA (atualização via navegador)
-
-* #### Alarmes por pH ou temperatura
+* #### Sensor OD (oxigênio dissolvido)
+* #### Alarmes por pH, temperatura e concentração de oxigenio
 ______________________________________________________________________
 ## 📄 Licença
 
