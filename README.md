@@ -91,7 +91,7 @@ ________________________________________________________________________________
 ## 🚀 Como Executar
 
 1. #### Instale as bibliotecas necessárias
-2. #### Compile e envie o main.ino para o ESP32
+2. #### Compile e envie o Untitled-1.cpp(.ino) para o ESP32
 3. #### Copie os arquivos web para o cartão SD
 4. #### Ligue o ESP32
 5. #### Acesse o IP exibido no Serial Monitor
